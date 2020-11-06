@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Pets shop</title>
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+
+          <h1 class="display-4">Pets Shop</h1>
+          <h5 class="lead">Find Your Pets Here</h5>
+
+        </div>
+
+        <div class="col">
+          <div class="input-group col-6 float-right mt-3 pr-0">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search" value="search"
+              id="searchWord">
+            <div class="input-group-append">
+
+              <span class="input-group-text lighten-3" id="searchIcon">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                  <path fill-rule="evenodd"
+                    d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                </svg>
+              </span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <button id="refresh" class="btn  btn-danger float-right" type="button" name="button">Refresh All</button>
+
+      <button class="btn btn-filter text-light mb-2" type="button" data-toggle="collapse" data-target="#collapseExample"
+        aria-expanded="false" aria-controls="collapseExample">
+        Filter by species
+      </button>
+
+      <br>
+
+      <div class="collapse" id="collapseExample">
+
+        <div class="btn-group">
+
+          <label class="btn btn-info">
+            <input type="checkbox" id="dog" value="checked">
+            Dogs
+          </label>
+
+          <label class="btn btn-info">
+            <input type="checkbox" id="cat" value="checked">
+            Cats
+          </label>
+
+          <label class="btn btn-info">
+            <input type="checkbox" id="bird" value="checked">
+            Birds
+          </label>
+
+          <label class="btn btn-info">
+            <input type="checkbox" id="fish" value="checked">
+            Fishes
+          </label>
+
+
+
+
+        </div>
+
+        <button id="showChoice" class="btn btn-success  h5 " type="button" name="button">Done</button>
+
+
+
+        <!-- behaviour filter -->
+        <!-- <h4 class="mt-2 bg-info text-light p-1 inputHeading">Choose behaviour </h4>
+
+        <select id="behaviour" class="text-light bg-dark form-control" name="" multiple>
+          <option value="Agressive">Agressive</option>
+          <option value="Lazy">Lazy</option>
+          <option value="Cool">Cool</option>
+          <option value="Friendly">Friendly</option>
+        </select>
+
+        <button id="showSelection" class="btn btn-lg bg-white border border-primary my-2 text-danger h5 font-weight-bold" type="button" name="button">Show cats by behaviour</button> -->
+
+
+
+
+
+
+
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- Result container -->
+
+  <div class="container">
+    <div id="result" class="card-columns"></div>
+  </div>
+
+
+
+  <!-- Modal -->
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-primary" id="exampleModalLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div id="imagepets" class="modal-body">
+
+        </div>
+        <div id="showMorePhotos" class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--end of Modal-->
+
+
+
+
+
+
+
+  <!-- <div class="container">
+        <div id="pets" class="card-columns"></div>
+      </div> -->
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script> -->
+
+  <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
