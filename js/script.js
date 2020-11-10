@@ -11,7 +11,7 @@ $(document).ready(function (){
             colors : 'Lemon & White, White & Tan, Tri-color, Chocolate Tri, White & Chocolate, Orange & White, Red & White',
             lifeExpectancy : '12-15 Years',
             origin: 'United Kingdom, England, Great Britain',
-            photo : 'beagle01.jpg',
+            photo : [ 'beagle01.jpg' , 'beagle01.jpg' ],
             description : ''
         },
 
@@ -213,7 +213,8 @@ $('#showSelection').click(function(){
               $('#exampleModalLabel').text(pets[i].breed);
               //append will keep  adding to existing content, so clear if you want
               //or else use html to replace existing content
-              $('#imagepets').append('<img class="img-fluid" src="images/' + pets[i].photo + '" alt="' + pets[i].breed + '"/>');
+              $('#imagepets').append('<img class="img-fluid" src="images/' + pets[i].photo + '" alt="' + pets[i].breed + '"/>' +
+              '<p class="text-dark">'+ pets[i].description +'</p>') ;
   
   
           } //end of if statement
@@ -221,7 +222,7 @@ $('#showSelection').click(function(){
   
         }//end of for statement
         console.log(species);
-        catCarousel(species);
+        petsCarousel(photo);
   
   
   
@@ -237,19 +238,19 @@ $('#showSelection').click(function(){
   // Carousel
   // ==========================================================
   
-    function petsCarousel(catBreed){
-      var breedArray = [];
+    function petsCarousel(photo){
+      var photoArray = [];
       $('#imagepets').text('');
-      for (i = 0; i < cats.length; i++) {
+      for (i = 0; i < pets.length; i++) {
   
-        if (cats[i].breed === catBreed) {
-          breedArray.push(cats[i].photo);
+        if (pets[i].photo === petsPhoto) {
+          photoArray.push(pets[i].photo);
           // console.log(cats[i].description);
-          $('#imagepets').append('<p class="text-danger lead">' + cats[i].description + '<p>' );
+          $('#imagepets').append('<p class="text-danger lead">' + pets[i].description + '<p>' );
         } //end of if
       } //end of for
   
-      console.log(breedArray);
+      console.log(photoArray);
       $('#imagepets').append(
         '  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">' +
         '  <ol class="carousel-indicators">' +
@@ -259,13 +260,13 @@ $('#showSelection').click(function(){
         '  </ol>' +
         '  <div class="carousel-inner">' +
         '    <div class="carousel-item active">' +
-        '      <img class="d-block w-100" src="images/' + breedArray[0] + '" alt="First slide">' +
+        '      <img class="d-block w-100" src="images/' + photoArray[0] + '" alt="First slide">' +
         '    </div>' +
         '    <div class="carousel-item">' +
-        '      <img class="d-block w-100" src="images/' + breedArray[1] + '"alt="Second slide">' +
+        '      <img class="d-block w-100" src="images/' + photoArray[1] + '"alt="Second slide">' +
         '    </div>' +
         '    <div class="carousel-item">' +
-        '      <img class="d-block w-100" src="images/' + breedArray[2] + '" alt="Third slide">' +
+        '      <img class="d-block w-100" src="images/' + photoArray[2] + '" alt="Third slide">' +
         '    </div>' +
         '  </div>' +
         '  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">' +
