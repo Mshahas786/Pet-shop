@@ -72,18 +72,113 @@ $(document).ready(function (){
         },
 
         {
-            id : 4,
+            id : 5,
             species : 'cat',
-            breed : 'Persian',
-            temperament : 'Friendly, Calm',
+            breed : 'British Shorthair',
+            temperament : 'Friendly, Easygoing',
             height: '10-15 inches',
             weight: '12 pounds',
             colors : 'silver, blue silver, red, brown, blue, cream, cameo and cream cameo. There are no patched tabby patterns in red, cream and cameo.',
             lifeExpectancy : '10–17 Years',
-            origin: 'Iran',
+            origin: 'Great Britain',
             photo : 'persian01.jpg',
-            description : ' The first documented'
-        }
+            description : ' The British Shorthair is a relatively powerful-looking large cat, having a broad chest, strong thick-set legs with rounded paws and a medium-length, blunt-tipped tail. The head is relatively large and rounded, with a short muzzle, broad cheeks (most noticeable in mature males, who tend to develop prominent jowls) and large round eyes that are deep coppery orange in the British Blue and otherwise vary in colour depending on the coat. Their large ears are broad and widely set.'
+        },
+
+        {
+          id : 6,
+          species : 'cat',
+          breed : 'Maine Coon',
+          temperament : 'Friendly, Calm',
+          height: '10-15 inches',
+          weight: 'Male: 5.9 – 8.2 kg, Female: 3.6 – 5.4 kg',
+          colors : 'silver, blue silver, red, brown, blue, cream, cameo and cream cameo. There are no patched tabby patterns in red, cream and cameo.',
+          lifeExpectancy : '10–17 Years',
+          origin: 'Maine, United States',
+          photo : 'persian01.jpg',
+          description : ' The Maine Coon is the largest domesticated cat breed. It has a distinctive physical appearance and valuable hunting skills. It is one of the oldest natural breeds in North America, specifically native to the US state of Maine,[3] where it is the official state cat.'
+      },
+
+      
+    {
+      id : 7,
+      species : 'cat',
+      breed : 'Siamese cat',
+      temperament : 'Friendly, Calm',
+      height: '10-15 inches',
+      weight: '12 pounds',
+      colors : 'silver, blue silver, red, brown, blue, cream, cameo and cream cameo. There are no patched tabby patterns in red, cream and cameo.',
+      lifeExpectancy : '10–17 Years',
+      origin: 'Thailand',
+      photo : 'persian01.jpg',
+      description : ' The Siamese cat is one of the first distinctly recognized breeds of Asian cat. Derived from the Wichianmat landrace, one of several varieties of cat native to Thailand, the original Siamese became one of the most popular breeds in Europe and North America in the 19th century.'
+  },
+
+  {
+    id : 8,
+    species : 'bird',
+    breed : 'Grey parrot',
+    temperament : 'Friendly,',
+    height: '10-15 inches',
+    weight: '410 g',
+    colors : 'Grey',
+    lifeExpectancy : '40–60 years',
+    origin: 'Animalia',
+    photo : 'persian01.jpg',
+    description : 'The grey parrot, also known as the Congo grey parrot, Congo African grey parrot or African grey parrot, is an Old World parrot in the family Psittacidae. The Timneh parrot once was identified as a subspecies of the grey parrot, but has since been elevated to a full species. '
+},
+{
+  id : 9,
+  species : 'bird',
+  breed : 'Amazon parrot',
+  temperament : 'Friendly,',
+  height: '10-15 inches',
+  weight: '410 g',
+  colors : 'Green, Red',
+  lifeExpectancy : '40–60 years',
+  origin: 'Animalia',
+  photo : 'persian01.jpg',
+  description : ''
+},
+{
+  id : 8,
+  species : 'bird',
+  breed : 'Grey parrot',
+  temperament : 'Friendly,',
+  height: '10-15 inches',
+  weight: '410 g',
+  colors : 'Green, Red',
+  lifeExpectancy : '40–60 years',
+  origin: 'Animalia',
+  photo : 'persian01.jpg',
+  description : ''
+},
+{
+  id : 8,
+  species : 'bird',
+  breed : 'Grey parrot',
+  temperament : 'Friendly,',
+  height: '10-15 inches',
+  weight: '410 g',
+  colors : 'Grey',
+  lifeExpectancy : '40–60 years',
+  origin: 'Animalia',
+  photo : 'persian01.jpg',
+  description : ''
+},
+{
+  id : 8,
+  species : 'bird',
+  breed : 'Grey parrot',
+  temperament : 'Friendly,',
+  height: '10-15 inches',
+  weight: '410 g',
+  colors : 'Grey',
+  lifeExpectancy : '40–60 years',
+  origin: 'Animalia',
+  photo : 'persian01.jpg',
+  description : ''
+}
 
         
 
