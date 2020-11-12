@@ -103,7 +103,7 @@ $(document).ready(function (){
     {
       id : 7,
       species : 'cat',
-      breed : 'Siamese cat',
+      breed : 'Siamese',
       temperament : 'Friendly, Calm',
       height: '10-15 inches',
       weight: '12 pounds',
@@ -135,52 +135,90 @@ $(document).ready(function (){
   height: '10-15 inches',
   weight: '410 g',
   colors : 'Green, Red',
-  lifeExpectancy : '40–60 years',
+  lifeExpectancy : '50 years',
   origin: 'Animalia',
   photo : 'persian01.jpg',
-  description : ''
+  description : 'Amazon parrot is the common name for a parrot of the genus Amazona. They are medium-sized parrots native to the New World ranging from South America to Mexico and the Caribbean. Most amazon parrots are predominantly green, with accenting colors that depend on the species and can be quite vivid. They feed primarily on seeds, nuts, and fruits, supplemented by leafy matter. Many amazon parrots have a remarkable ability to mimic human speech and other sounds. Partly because of this, they are popular as pets or companion parrots, and a small industry has developed in breeding parrots in captivity for this market. This popularity has led to many parrots being taken from the wild to the extent that some species have become threatened. The Convention on International Trade in Endangered Species of Wild Fauna and Flora treaty has made the capture of wild parrots for the pet trade illegal in an attempt to help protect wild populations.'
 },
 {
-  id : 8,
+  id : 10,
   species : 'bird',
-  breed : 'Grey parrot',
+  breed : 'Budgerigar',
   temperament : 'Friendly,',
-  height: '10-15 inches',
-  weight: '410 g',
-  colors : 'Green, Red',
-  lifeExpectancy : '40–60 years',
-  origin: 'Animalia',
+  height: '4-6 inches',
+  weight: '40 g',
+  colors : 'light-green,dark-green, gray-green , olive, yellow, Green-yellow base',
+  lifeExpectancy : '5-10 years',
+  origin: 'Australia',
   photo : 'persian01.jpg',
-  description : ''
+  description : 'The budgerigar is a long-tailed, seed-eating parrot usually nicknamed the budgie, or in American English, the parakeet. Budgies are the only species in the genus Melopsittacus. Naturally, the species is green and yellow with black, scalloped markings on the nape, back, and wings.'
 },
 {
-  id : 8,
+  id : 11,
   species : 'bird',
-  breed : 'Grey parrot',
+  breed : 'Cockatiel',
   temperament : 'Friendly,',
   height: '10-15 inches',
-  weight: '410 g',
-  colors : 'Grey',
-  lifeExpectancy : '40–60 years',
+  weight: '90 g',
+  colors : 'Grey, yellow ,red',
+  lifeExpectancy : '10 – 14 years',
   origin: 'Animalia',
   photo : 'persian01.jpg',
-  description : ''
+  description : 'The cockatiel, also known as weiro bird, or quarrion, is a small parrot that is a member of its own branch of the cockatoo family endemic to Australia. They are prized as household pets and companion parrots throughout the world and are relatively easy to breed.'
 },
 {
-  id : 8,
-  species : 'bird',
-  breed : 'Grey parrot',
-  temperament : 'Friendly,',
-  height: '10-15 inches',
-  weight: '410 g',
-  colors : 'Grey',
+  id : 12,
+  species : 'fish',
+  breed : 'Goldfish',
+  temperament : 'beautiful,',
+  height: '16 inches',
+  weight: '2.3 kg',
+  colors : 'red, white, yellow, black',
   lifeExpectancy : '40–60 years',
   origin: 'Animalia',
   photo : 'persian01.jpg',
-  description : ''
-}
+  description : 'The goldfish is a freshwater fish in the family Cyprinidae of order Cypriniformes. It is one of the most commonly kept aquarium fish. A relatively small member of the carp family, the goldfish is native to East Asia.'
+},
+{
+  id : 13,
+  species : 'fish',
+  breed : 'Arowana',
+  temperament : 'beautiful,',
+  height: '16 inches',
+  weight: '2.5 kg',
+  colors : 'red, white, yellow, black, gold',
+  lifeExpectancy : '100 years',
+  origin: 'Animalia',
+  photo : 'persian01.jpg',
+  description : 'Arowanas are freshwater bony fish of the family Osteoglossidae, also known as bony tongues. In this family of fish, the head is bony and the elongated body is covered by large, heavy scales, with a mosaic pattern of canals'
+},
+{
+  id : 14,
+  species : 'fish',
+  breed : 'Angelfish',
+  temperament : 'beautiful,',
+  height: '5 inches',
+  weight: '150 g',
+  colors : 'red, white, yellow, black, gold, silver',
+  lifeExpectancy : '5-6 years',
+  origin: 'Animalia',
+  photo : 'persian01.jpg',
+  description : 'Pterophyllum is a small genus of freshwater fish from the family Cichlidae known to most aquarists as angelfish. All Pterophyllum species originate from the Amazon Basin, Orinoco Basin and various rivers in the Guiana Shield in tropical South America.'
+},
+{
+  id : 14,
+  species : 'fish',
+  breed : 'Gourami',
+  temperament : 'beautiful,aggressive',
+  height: '15 inches',
+  weight: '750 g',
+  colors : 'red, white, yellow, black, gold, silver, blue, orange',
+  lifeExpectancy : '3 – 5 years',
+  origin: 'Animalia',
+  photo : 'persian01.jpg',
+  description : 'Gouramis, or gouramies, are a group of freshwater anabantiform fishes that comprise the family Osphronemidae. The fish are native to Asia—from Pakistan and India to the Southeast Asia and northeasterly towards Korea'
 
-        
+}   
 
     ];// pets array !!!
 
