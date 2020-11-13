@@ -1,10 +1,10 @@
 # JS Style guide
-## 1. Table of contents
-## 2. Statement
-## 3. Variable
-## 4. Comments
-## 5. Operators
-## 6. Conditional-structure-if
+## Table of contents
+## 1. Statement
+## 2. Variable
+## 3. Comments
+## 4. Operators
+## 5. Conditional-structure-if
 
 
 ### 1. Statement
