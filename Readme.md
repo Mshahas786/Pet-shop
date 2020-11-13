@@ -1,49 +1,51 @@
-JS Style guide
-Table of contents
-Statement
-Variable
-Comments
-[Operators]
-Conditional structure - if
+# JS Style guide
+## Table of contents
+## Statement
+## Variable
+## Comments
+## Operators
+## Conditional-structure-if
+
 1. Statement
-use one statement per line
-Always end a statement with a semicolon.
-Use a maximum of 80 characters on a line and if it is longer, break the line with a + and then bring it to the next line.
+*use correct spacing*
+
+bad example
+var x=y+2;
+
+good example
+var x = y + 2;
 
 2. variable
-use camelCase for identifier names
+*Use correct spacing, write descriptive keywords with camelCasing.*
 
-Bad example
-function displaycards
+bad example
+var allmovies=y+2;
 
-Good example
-function displayCards
+good example
+var allMovies = y + 2;
 
 3. Comments
-Use /* ... / for multiline comments.
-Use // for single line comments.
+*Write comments for code-block headings, to explain code and define last curly brackets*
+
+good example
+// ========================================================================= // Declaration of x variable // ============================================================================
+
+var x = y + 2; // adds 2 to y
 
 4. Operators
-Keep a space before and after any operator.
+*Keep a space before and after any operator.*
 
-Bad example
-var i=0;
+bad example
+var x=y+2;
 
-Good example
-var i = 0;
+good example
+var x = y + 2;
 
 5. Condition structure - if
-Use space after the keyword if.
-Use space after the parenthesis
-Use open curly braces at the end of first line.
-use close curly braces in a new line.
-keep the else keyword on the same line as the close curly braces of the previous set of brackets
-indent the code as given in the good example Put the opening bracket at the end of the first line.
-Use one space before the opening bracket.
-Put the closing bracket on a new line, without leading spaces.
+*Use space after the keyword if. Use space after the parenthesis Use open curly braces at the end of first line. use close curly braces in a new line. keep the else keyword on the same line as the close curly braces of the previous set of brackets indent the code as given in the good example*
 
-Bad example
-if(word.toLowerCase()===gifts[i].tagWords[j]){ displayCards(i);
+bad example
+if(age>17) { alert('hi'); } else{alert('hello');}
 
-Good example
-if (word.toLowerCase() === gifts[i].tagWords[j]){ displayCards(i);
+good example
+if (age > 17) { alert('hi'); } else { alert('hello'); }

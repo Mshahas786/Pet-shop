@@ -11,8 +11,8 @@ $(document).ready(function (){
             colors : 'Lemon & White, White & Tan, Tri-color, Chocolate Tri, White & Chocolate, Orange & White, Red & White',
             lifeExpectancy : '12-15 Years',
             origin: 'United Kingdom, England, Great Britain',
-            photo : [ 'beagle01.jpg' , 'beagle01.jpg' ],
-            description : ''
+            photo : [ 'beagle01.jpg' , 'beagle02.jpg' , 'beagle03.jpg' ],
+            description : 'The beagle is a breed of small hound that is similar in appearance to the much larger foxhound. The beagle is a scent hound, developed primarily for hunting hare.'
         },
 
         {
@@ -25,7 +25,7 @@ $(document).ready(function (){
             colors : ' White, Black, Black & Tan, Silver-gray, Black & White, Sable & White, Grey, Gray & White, Red & White',
             lifeExpectancy : '12-15 Years',
             origin: 'Siberia',
-            photo : 'SiberianHusky01.jpg',
+            photo : ['SiberianHusky01.jpg', 'SiberianHusky02.jpg' , 'SiberianHusky03.jpg'],
             description : 'The Siberian Husky (Russian: Сибирский хаски, tr. Sibirskiy khaski) is a medium-sized working dog breed. The breed belongs to the Spitz genetic family. It is recognizable by its thickly furred double coat, erect triangular ears, and distinctive markings, and is smaller than a very similar-looking dog, the Alaskan Malamute Siberian Huskies originated in Northeast Asia where they are bred by the Chukchi people for sled-pulling, guarding, and companionship.[5] It is an active, energetic, resilient breed, whose ancestors lived in the extremely cold and harsh environment of the Siberian Arctic. William Goosak, a Russian fur trader, introduced them to Nome, Alaska during the Nome Gold Rush, initially as sled dogs.'
         },
 
@@ -39,7 +39,7 @@ $(document).ready(function (){
             colors : 'Black, Blue, Fawn, Cream, Red',
             lifeExpectancy : '9–15 Years',
             origin: 'China',
-            photo : 'ChowChow01.jpg',
+            photo : ['ChowChow01.jpg','ChowChow02.jpg','ChowChow03.jpg'],
             description : 'The Chow-Chow is a dog breed originally from northern China.[3] The Chow-Chow is a sturdily built dog, square in profile, with a broad skull and small, triangular, erect ears with rounded tips. The breed is known for a very dense double coat that is either smooth or rough.[1]:4–5 The fur is particularly thick in the neck area, giving it a distinctive ruff or mane appearance. The coat may be shaded/self-red, black, blue, cinnamon/fawn, or cream.'
         },
 
@@ -53,7 +53,7 @@ $(document).ready(function (){
             colors : 'Red & White, Reddish-brown Brindle, Brownish-yellow, Reddish-brown Splash, Reddish-brown Mantle',
             lifeExpectancy : '8–10 Years',
             origin: 'Switzerland, Italy',
-            photo : 'St.Bernard01.jpg',
+            photo : ['St.Bernard01.jpg','St.Bernard02.jpg','St.Bernard03.jpg'],
             description : 'The St. Bernard or St Bernard (UK: /ˈbɜːnəd/, US: /bərˈnɑːrd/) is a breed of very large working dog from the western Alps in Italy and Switzerland.[3] They were originally bred for rescue work by the hospice of the Great St Bernard Pass on the Italian-Swiss border.[4][5] The hospice,[when defined as?] built by and named after Italian monk Bernard of Menthon, acquired its first dogs between 1660 and 1670.[4] The breed has become famous through tales of Alpine rescues, as well as for its large size.'
         },
 
@@ -67,7 +67,7 @@ $(document).ready(function (){
             colors : 'silver, blue silver, red, brown, blue, cream, cameo and cream cameo. There are no patched tabby patterns in red, cream and cameo.',
             lifeExpectancy : '10–17 Years',
             origin: 'Iran',
-            photo : 'persian01.jpg',
+            photo : ['persian01.jpg','persian02.jpg','persian03.jpg'],
             description : 'The Persian cat is a long-haired breed of cat characterized by its round face and short muzzle. It is also known as the "Persian Longhair" in the English-speaking countries. The first documented ancestors of the Persian were imported into Italy from Iran around 1620.'
         },
 
@@ -81,7 +81,7 @@ $(document).ready(function (){
             colors : 'silver, blue silver, red, brown, blue, cream, cameo and cream cameo. There are no patched tabby patterns in red, cream and cameo.',
             lifeExpectancy : '10–17 Years',
             origin: 'Great Britain',
-            photo : 'persian01.jpg',
+            photo : ['BritishShorthair01.jpg','BritishShorthair02.jpg','BritishShorthair03.jpg'],
             description : ' The British Shorthair is a relatively powerful-looking large cat, having a broad chest, strong thick-set legs with rounded paws and a medium-length, blunt-tipped tail. The head is relatively large and rounded, with a short muzzle, broad cheeks (most noticeable in mature males, who tend to develop prominent jowls) and large round eyes that are deep coppery orange in the British Blue and otherwise vary in colour depending on the coat. Their large ears are broad and widely set.'
         },
 
@@ -95,7 +95,7 @@ $(document).ready(function (){
           colors : 'silver, blue silver, red, brown, blue, cream, cameo and cream cameo. There are no patched tabby patterns in red, cream and cameo.',
           lifeExpectancy : '10–17 Years',
           origin: 'Maine, United States',
-          photo : 'persian01.jpg',
+          photo : ['MaineCoon02.jpg','MaineCoon01.jpg','MaineCoon03.jpg'],
           description : ' The Maine Coon is the largest domesticated cat breed. It has a distinctive physical appearance and valuable hunting skills. It is one of the oldest natural breeds in North America, specifically native to the US state of Maine,[3] where it is the official state cat.'
       },
 
@@ -110,7 +110,7 @@ $(document).ready(function (){
       colors : 'silver, blue silver, red, brown, blue, cream, cameo and cream cameo. There are no patched tabby patterns in red, cream and cameo.',
       lifeExpectancy : '10–17 Years',
       origin: 'Thailand',
-      photo : 'persian01.jpg',
+      photo : ['Siamese01.jpg','Siamese02.jpg','Siamese03.jpg'],
       description : ' The Siamese cat is one of the first distinctly recognized breeds of Asian cat. Derived from the Wichianmat landrace, one of several varieties of cat native to Thailand, the original Siamese became one of the most popular breeds in Europe and North America in the 19th century.'
   },
 
@@ -124,7 +124,7 @@ $(document).ready(function (){
     colors : 'Grey',
     lifeExpectancy : '40–60 years',
     origin: 'Animalia',
-    photo : 'persian01.jpg',
+    photo : ['Grey01.jpg','Grey02.jpg','Grey03.jpg'],
     description : 'The grey parrot, also known as the Congo grey parrot, Congo African grey parrot or African grey parrot, is an Old World parrot in the family Psittacidae. The Timneh parrot once was identified as a subspecies of the grey parrot, but has since been elevated to a full species. '
 },
 {
@@ -137,7 +137,7 @@ $(document).ready(function (){
   colors : 'Green, Red',
   lifeExpectancy : '50 years',
   origin: 'Animalia',
-  photo : 'persian01.jpg',
+  photo : ['AmazonParrot01.jpg','AmazonParrot02.jpg','AmazonParrot03.jpg'],
   description : 'Amazon parrot is the common name for a parrot of the genus Amazona. They are medium-sized parrots native to the New World ranging from South America to Mexico and the Caribbean. Most amazon parrots are predominantly green, with accenting colors that depend on the species and can be quite vivid. They feed primarily on seeds, nuts, and fruits, supplemented by leafy matter. Many amazon parrots have a remarkable ability to mimic human speech and other sounds. Partly because of this, they are popular as pets or companion parrots, and a small industry has developed in breeding parrots in captivity for this market. This popularity has led to many parrots being taken from the wild to the extent that some species have become threatened. The Convention on International Trade in Endangered Species of Wild Fauna and Flora treaty has made the capture of wild parrots for the pet trade illegal in an attempt to help protect wild populations.'
 },
 {
@@ -150,7 +150,7 @@ $(document).ready(function (){
   colors : 'light-green,dark-green, gray-green , olive, yellow, Green-yellow base',
   lifeExpectancy : '5-10 years',
   origin: 'Australia',
-  photo : 'persian01.jpg',
+  photo : ['Budgerigar01.jpg','Budgerigar02.jpg','Budgerigar03.jpg'],
   description : 'The budgerigar is a long-tailed, seed-eating parrot usually nicknamed the budgie, or in American English, the parakeet. Budgies are the only species in the genus Melopsittacus. Naturally, the species is green and yellow with black, scalloped markings on the nape, back, and wings.'
 },
 {
@@ -163,7 +163,7 @@ $(document).ready(function (){
   colors : 'Grey, yellow ,red',
   lifeExpectancy : '10 – 14 years',
   origin: 'Animalia',
-  photo : 'persian01.jpg',
+  photo : ['Cockatiel01.jpg','Cockatiel02.jpg','Cockatiel03.jpg'],
   description : 'The cockatiel, also known as weiro bird, or quarrion, is a small parrot that is a member of its own branch of the cockatoo family endemic to Australia. They are prized as household pets and companion parrots throughout the world and are relatively easy to breed.'
 },
 {
@@ -176,7 +176,7 @@ $(document).ready(function (){
   colors : 'red, white, yellow, black',
   lifeExpectancy : '40–60 years',
   origin: 'Animalia',
-  photo : 'persian01.jpg',
+  photo : ['GoldFish01.jpg','GoldFish02.jpg','GoldFish03.jpg'],
   description : 'The goldfish is a freshwater fish in the family Cyprinidae of order Cypriniformes. It is one of the most commonly kept aquarium fish. A relatively small member of the carp family, the goldfish is native to East Asia.'
 },
 {
@@ -189,7 +189,7 @@ $(document).ready(function (){
   colors : 'red, white, yellow, black, gold',
   lifeExpectancy : '100 years',
   origin: 'Animalia',
-  photo : 'persian01.jpg',
+  photo : ['Arowana01.jpg','Arowana02.jpg','Arowana03.jpg'],
   description : 'Arowanas are freshwater bony fish of the family Osteoglossidae, also known as bony tongues. In this family of fish, the head is bony and the elongated body is covered by large, heavy scales, with a mosaic pattern of canals'
 },
 {
@@ -202,11 +202,11 @@ $(document).ready(function (){
   colors : 'red, white, yellow, black, gold, silver',
   lifeExpectancy : '5-6 years',
   origin: 'Animalia',
-  photo : 'persian01.jpg',
+  photo : ['AngelFish01.jpg','AngelFish02.jpg','AngelFish03.jpg'],
   description : 'Pterophyllum is a small genus of freshwater fish from the family Cichlidae known to most aquarists as angelfish. All Pterophyllum species originate from the Amazon Basin, Orinoco Basin and various rivers in the Guiana Shield in tropical South America.'
 },
 {
-  id : 14,
+  id : 15,
   species : 'fish',
   breed : 'Gourami',
   temperament : 'beautiful,aggressive',
@@ -215,7 +215,7 @@ $(document).ready(function (){
   colors : 'red, white, yellow, black, gold, silver, blue, orange',
   lifeExpectancy : '3 – 5 years',
   origin: 'Animalia',
-  photo : 'persian01.jpg',
+  photo : ['Gourami01.jpg','Gourami02.jpg','Gourami03.jpg'],
   description : 'Gouramis, or gouramies, are a group of freshwater anabantiform fishes that comprise the family Osphronemidae. The fish are native to Asia—from Pakistan and India to the Southeast Asia and northeasterly towards Korea'
 
 }   
@@ -346,8 +346,14 @@ $('#showSelection').click(function(){
               $('#exampleModalLabel').text(pets[i].breed);
               //append will keep  adding to existing content, so clear if you want
               //or else use html to replace existing content
-              $('#imagepets').append('<img class="img-fluid" src="images/' + pets[i].photo + '" alt="' + pets[i].breed + '"/>' +
-              '<p class="text-dark">'+ pets[i].description +'</p>') ;
+              $('#imagepets').append('<img class="img-fluid" src="images/' + pets[i].photo[0] + '" alt="' + pets[i].breed + '"/>' +
+              '<p class="text-dark">  <span class="h5" > Temperament: </span> ' + pets[i].temperament +'</p>'+
+              '<p class="text-dark">  <span class="h5" > Height: </span> ' + pets[i].height +'</p>'+
+              '<p class="text-dark">  <span class="h5" >  weight: </span> ' + pets[i]. weight +'</p>'+
+              '<p class="text-dark">  <span class="h5" > Colors: </span> ' + pets[i].colors +'</p>'+
+              '<p class="text-dark">  <span class="h5" > LifeExpectancy: </span> ' + pets[i].lifeExpectancy +'</p>'+
+              '<p class="text-dark">  <span class="h5" > Origin: </span> ' + pets[i].origin +'</p>'+
+              '<p class="text-dark font-italic">'+ pets[i].description +'</p>');
   
   
           } //end of if statement
@@ -372,18 +378,18 @@ $('#showSelection').click(function(){
   // ==========================================================
   
     function petsCarousel(photo){
-      var photoArray = [];
-      $('#imagepets').text('');
-      for (i = 0; i < pets.length; i++) {
+      // var photoArray = [];
+      // $('#imagepets').text('');
+      // for (i = 0; i < pets.length; i++) {
   
-        if (pets[i].photo === petsPhoto) {
-          photoArray.push(pets[i].photo);
-          // console.log(cats[i].description);
-          $('#imagepets').append('<p class="text-danger lead">' + pets[i].description + '<p>' );
-        } //end of if
-      } //end of for
+      //   if (pets[i].photo === petsPhoto) {
+      //     photoArray.push(pets[i].photo);
+         
+      //     $('#imagepets').append('<p class="text-danger lead">' + pets[i].description + '<p>' );
+      //   } //end of if
+      // } //end of for
   
-      console.log(photoArray);
+      // console.log(photoArray);
       $('#imagepets').append(
         '  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">' +
         '  <ol class="carousel-indicators">' +
@@ -393,13 +399,13 @@ $('#showSelection').click(function(){
         '  </ol>' +
         '  <div class="carousel-inner">' +
         '    <div class="carousel-item active">' +
-        '      <img class="d-block w-100" src="images/' + photoArray[0] + '" alt="First slide">' +
+        '      <img class="d-block w-100" src="images/' + pets[i].photo[0] + '" alt="First slide">' +
         '    </div>' +
         '    <div class="carousel-item">' +
-        '      <img class="d-block w-100" src="images/' + photoArray[1] + '"alt="Second slide">' +
+        '      <img class="d-block w-100" src="images/' + pets[i].photo[0] + '"alt="Second slide">' +
         '    </div>' +
         '    <div class="carousel-item">' +
-        '      <img class="d-block w-100" src="images/' + photoArray[2] + '" alt="Third slide">' +
+        '      <img class="d-block w-100" src="images/' + pets[i].photo[0] + '" alt="Third slide">' +
         '    </div>' +
         '  </div>' +
         '  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">' +
@@ -486,7 +492,7 @@ function filterByWord(word){
   function displayCards(j){
     //access properties of objects using index number
           $('#result').append('  <div class="card">'+
-         '<img src="images/' + pets[j].photo +'" class="card-img-top" alt="' + pets[j].breed + '">'+
+         '<img src="images/' + pets[j].photo[0] +'" class="card-img-top" alt="' + pets[j].breed + '">'+
          '<div class="card-body">'+
            '<h3 class="card-title"> '+ pets[j].breed + ' </h3>'+
            
