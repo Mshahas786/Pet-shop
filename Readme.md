@@ -1,12 +1,13 @@
 # JS Style guide
-## Table of contents
-## Statement
-## Variable
-## Comments
-## Operators
-## Conditional-structure-if
+### Table of contents
+### Statement
+### Variable
+### Comments
+### Operators
+### Conditional-structure-if
 
 1. Statement
+
 *use correct spacing*
 
 bad example
@@ -16,6 +17,7 @@ good example
 var x = y + 2;
 
 2. variable
+
 *Use correct spacing, write descriptive keywords with camelCasing.*
 
 bad example
@@ -25,6 +27,7 @@ good example
 var allMovies = y + 2;
 
 3. Comments
+
 *Write comments for code-block headings, to explain code and define last curly brackets*
 
 good example
@@ -33,6 +36,7 @@ good example
 var x = y + 2; // adds 2 to y
 
 4. Operators
+
 *Keep a space before and after any operator.*
 
 bad example
@@ -42,6 +46,7 @@ good example
 var x = y + 2;
 
 5. Condition structure - if
+
 *Use space after the keyword if. Use space after the parenthesis Use open curly braces at the end of first line. use close curly braces in a new line. keep the else keyword on the same line as the close curly braces of the previous set of brackets indent the code as given in the good example*
 
 bad example
