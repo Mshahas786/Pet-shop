@@ -346,7 +346,7 @@ $('#showSelection').click(function(){
               $('#exampleModalLabel').text(pets[i].breed);
               //append will keep  adding to existing content, so clear if you want
               //or else use html to replace existing content
-              $('#imagepets').append('<img class="img-fluid" src="images/' + pets[i].photo[0] + '" alt="' + pets[i].breed + '"/>' +
+              $('#imagepets').append(
               '<p class="text-dark">  <span class="h5" > Temperament: </span> ' + pets[i].temperament +'</p>'+
               '<p class="text-dark">  <span class="h5" > Height: </span> ' + pets[i].height +'</p>'+
               '<p class="text-dark">  <span class="h5" >  weight: </span> ' + pets[i]. weight +'</p>'+
@@ -355,13 +355,14 @@ $('#showSelection').click(function(){
               '<p class="text-dark">  <span class="h5" > Origin: </span> ' + pets[i].origin +'</p>'+
               '<p class="text-dark font-italic">'+ pets[i].description +'</p>');
   
+              petsCarousel(i);
   
           } //end of if statement
   
   
         }//end of for statement
         console.log(species);
-        petsCarousel(photo);
+      
   
   
   
@@ -377,19 +378,8 @@ $('#showSelection').click(function(){
   // Carousel
   // ==========================================================
   
-    function petsCarousel(photo){
-      // var photoArray = [];
-      // $('#imagepets').text('');
-      // for (i = 0; i < pets.length; i++) {
-  
-      //   if (pets[i].photo === petsPhoto) {
-      //     photoArray.push(pets[i].photo);
-         
-      //     $('#imagepets').append('<p class="text-danger lead">' + pets[i].description + '<p>' );
-      //   } //end of if
-      // } //end of for
-  
-      // console.log(photoArray);
+    function petsCarousel(j){
+      
       $('#imagepets').append(
         '  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">' +
         '  <ol class="carousel-indicators">' +
@@ -399,13 +389,13 @@ $('#showSelection').click(function(){
         '  </ol>' +
         '  <div class="carousel-inner">' +
         '    <div class="carousel-item active">' +
-        '      <img class="d-block w-100" src="images/' + pets[i].photo[0] + '" alt="First slide">' +
+        '      <img class="d-block w-100" src="images/' + pets[j].photo[0] + '" alt="First slide">' +
         '    </div>' +
         '    <div class="carousel-item">' +
-        '      <img class="d-block w-100" src="images/' + pets[i].photo[0] + '"alt="Second slide">' +
+        '      <img class="d-block w-100" src="images/' + pets[j].photo[1] + '"alt="Second slide">' +
         '    </div>' +
         '    <div class="carousel-item">' +
-        '      <img class="d-block w-100" src="images/' + pets[i].photo[0] + '" alt="Third slide">' +
+        '      <img class="d-block w-100" src="images/' + pets[j].photo[2] + '" alt="Third slide">' +
         '    </div>' +
         '  </div>' +
         '  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">' +
